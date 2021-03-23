@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: Text('Transferências'),
         ),
+        body: Text('Teste'),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
         ),
