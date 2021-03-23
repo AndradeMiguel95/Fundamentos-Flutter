@@ -5,7 +5,24 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: Text('Transferências'),
         ),
-        body: Text('Teste'),
+        body: Column(
+          children: [
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.monetization_on),
+                title: Text('100.00'),
+                subtitle: Text('1000'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.monetization_on),
+                title: Text('200.00'),
+                subtitle: Text('1000'),
+              ),
+            ),
+          ],
+        ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
         ),
