@@ -18,7 +18,7 @@ void main() => runApp(MaterialApp(
               child: ListTile(
                 leading: Icon(Icons.monetization_on),
                 title: Text('200.00'),
-                subtitle: Text('1000'),
+                subtitle: Text('2000'),
               ),
             ),
           ],
